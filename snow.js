@@ -13,21 +13,13 @@
 
 // 10/2021: Yes, some university hotlinked this script. This is an attempt to stop them.
 // Admin: Please download this script and host it on your own site. Thank you.
-if (!document.domain.match(/schillmania.com/i)) {
-	alert('SECURITY WARNING\nPlease tell your site administrator to host their own snow script. Thank you.');
-	// try { document.body.innerHTML = '<p>SECURITY WARNING<br />Please tell your site administrator to host their own snow script. Thank you.</p>'; } catch(e) {}; // go away.
-        document.body.innerHTML = 'SECURITY WARNING: Please tell your site administrator to host their own snow script. Thank you.';
-	throw new Error('SECURITY WARNING: Please tell your site administrator to host their own snowstorm script. Thank you.');
-	fail();
-	debugger;
-}
 
 var snowStorm = (function(window, document) {
 
   // --- common properties ---
 
   this.autoStart = true;          // Whether the snow should start automatically or not.
-  this.excludeMobile = true;      // Snow is likely to be bad news for mobile phones' CPUs (and batteries.) Enable at your own risk.
+  this.excludeMobile = true;      // Snow is likely to be bad newsnow.js for mobile phones' CPUs (and batteries.) Enable at your own risk.
   this.flakesMax = 128;           // Limit total amount of snow made (falling + sticking)
   this.flakesMaxActive = 64;      // Limit amount of snow falling at once (less = lower CPU use)
   this.animationInterval = 33;    // Theoretical "miliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower
