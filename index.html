@@ -1,6 +1,6 @@
 <html>
 <head>
-<script language=javascript>document.title=("ANPAN")</script>
+
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore|Meddon|Titillium+Web" rel="stylesheet">
  
@@ -11,16 +11,6 @@
 #start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
 .bottombar, .byline, .top-links { visibility: hidden; display: none;} 
  
-::selection {
-background: #e2d3f0;
-color: #fff;}
- 
-::-webkit-selection {
-background: #e2d3f0;
-color: #fff;}
- 
-::-webkit-scrollbar {background-color: #fff; height:8px; width:8px; border:3px solid #73659f;}
-::-webkit-scrollbar-thumb:vertical {background-color:#e2d3f0; border:1px solid #f0f0f0; height:5px;}
  
 body{
 background-image: url('https://i.postimg.cc/7h2BW79T/wp3208344-studio-ghibli-wallpaper-hd.jpg') !important;
@@ -89,7 +79,10 @@ width: 550px;
 height: 320px;
 background: #73659f;
 opacity: .9;
-border-radius: 10px;}
+border-radius: 10px;
+overflow: scroll;
+overflow-x: hidden;
+}
 
 #waves {
 width: 200px;
@@ -186,18 +179,12 @@ img{
 transition-duration:0.8s;
 -o-transition-duration:0.8s;}
 
-.popscroll {
-position:absolute;
-top:9%; bottom:9%; left:1%; right:3%;
-overflow: auto;
-padding-right:1px;}
-
 
 </style>
 </head>
 <body>
 <div id="sand">
-<div class="popscroll">
+
 <h1>Welcome!!!</h1>
 <h2>永遠の愛</h2>
 <center><h3>┉ About Me ┉</h3></center>
@@ -277,3 +264,5 @@ var playAttempt = \u0073\u0065\u0074\u0049\u006E\u0074\u0065\u0072\u0076\u0061\u
 }, 2000)
 document.getElementById("player").appendChild(song)
 </script>
+</body>
+</html>
