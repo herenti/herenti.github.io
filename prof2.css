@@ -1,0 +1,112 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.subcontainer{
+    height: 100vh;
+
+}
+
+
+.menubackground {
+    width: 91%;
+    height: auto;
+    border-radius: 25px;
+    margin: auto;
+    background: rgba(255,255,255, 0.8);
+    max-height: 90%;
+    min-height: 90%;
+    overflow-y: auto;
+
+}
+
+.submenu {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    margin: auto;
+    background: white;
+    min-height: 10%;
+
+}
+
+.title{
+    margin: 20px;
+    text-align: center;
+
+}
+
+.contenttextcss{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    text-align: left;
+    white-space: pre-wrap;
+
+}
+
+.bodytextcss{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+    white-space: pre-wrap;
+
+}
+
+
+.menubuttons{
+    float: left;
+
+}
+
+
+
+
+#menubutton1{
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color:#451255;
+    color: #ffffff;
+    display: inline-block;
+}
+
+#menubutton2{
+border-radius: 25px;
+margin: 10px;
+padding: 10px;
+background-color:#451255;
+color: #ffffff;
+display: inline-block;
+}
+
+
+body{
+    background-image: url("background2.jpg");
+    background-size: cover;
+    background-color: #451255;
+
+}
+
+titletext{
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+bodytext{
+
+    font-size: 20px;
+    color: #000000;
+
+}
+
+buttontex{
+    font-size: 20px;
+
+}
