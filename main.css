@@ -20,8 +20,9 @@ titletext {
 }
 
 .menubackground {
-    height: 5%;
-    width 90%;
+    height: 8%;
+    width: auto;
+    position: absolute;
     background-color: white;
 }
 
