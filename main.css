@@ -20,11 +20,12 @@ titletext {
 }
 
 .menubackground {
-    height: 6%;
-    width: auto;
+    height: 6vh;
     margin-left: 25px;
     margin-right: 25px;
     background-color: white;
+    display: flex;
+    align-items: stretch;
 }
 
 .maincontainer {
@@ -55,18 +56,18 @@ bodytext{
 
 
 .menubuttons{
-    float: left;
+    display: flex;
 }
 
 #menubutton1{
-    margin: 5px;
-    height: calc(100% - 10px);
-    box-sizing: border-box;
+    margin: 5px 0;
     background-color:#ffffff;
     color: #000000;
-    display: inline-block;
-     border-style: solid;
+    border-style: solid;
     border-width: medium;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 buttontext {
