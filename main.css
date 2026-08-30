@@ -2,6 +2,13 @@ body {
   background-image: url("anpan.jpg");
 }
 
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
 .menubackground {
     width: 91%;
     height: auto;
