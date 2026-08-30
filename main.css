@@ -20,10 +20,10 @@ titletext {
 }
 
 .menubackground {
-    height: 8%;
+    height: 6%;
     width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 25px;
+    margin-right: 25px;
     background-color: white;
 }
 
