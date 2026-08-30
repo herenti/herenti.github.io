@@ -56,17 +56,17 @@ bodytext{
 
 .menubuttons{
     float: left;
-    border-style: solid;
-    border-width: medium;
-
 }
 
 #menubutton1{
     margin: 5px;
-    height: 6%;
+    height: calc(100% - 10px);
+    box-sizing: border-box;
     background-color:#ffffff;
     color: #000000;
     display: inline-block;
+     border-style: solid;
+    border-width: medium;
 }
 
 buttontext {
