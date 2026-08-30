@@ -59,10 +59,15 @@ bodytext{
     display: flex;
 }
 
+.menubuttons a{
+    height: 100%
+    display: flex;
+    margin-right: 0.5vw;
+}
+
 #menubutton1{
     height: 100%;
     padding: 0 0.2vw;
-    margin-right: 0.5vw;
     background-color:#ffffff;
     color: #000000;
     border-style: solid;
@@ -75,7 +80,6 @@ bodytext{
 #menubutton2{
     height: 100%;
     padding: 0 0.2vw;
-    margin-right: 0.5vw;
     background-color:#ffffff;
     color: #000000;
     border-style: solid;
