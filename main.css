@@ -23,6 +23,7 @@ titletext{
 }
 
 .menubackground {
+    position: relative,
     width: 91%;
     height: auto;
     border-radius: 25px;
