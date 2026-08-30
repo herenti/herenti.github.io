@@ -1,5 +1,18 @@
 body {
-  background-image: url("anpan.jpg");
+ background: rgba(205, 175, 255, 0.8);
+}
+
+.title{
+    margin: 20px;
+    text-align: center;
+
+}
+
+titletext{
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+
 }
 
 .container{
