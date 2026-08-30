@@ -55,38 +55,23 @@ bodytext{
 }
 
 
-.menubuttons{
+.menubuttons {
     display: flex;
+    height: 100%;
 }
 
-.menubuttons a{
+.menubuttons a {
     height: 100%;
-    display: flex;
-    margin-right: 0.5vw;
-}
-
-#menubutton1{
-    height: 100%;
+    margin-left: 0.5vw;
     padding: 0 0.2vw;
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: #000000;
-    border-style: solid;
-    border-width: medium;
+    border: medium solid #000000;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
-}
-
-#menubutton2{
-    height: 100%;
-    padding: 0 0.2vw;
-    background-color:#ffffff;
-    color: #000000;
-    border-style: solid;
-    border-width: medium;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 buttontext {
