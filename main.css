@@ -20,6 +20,12 @@ titletext {
 }
 
 .menubackground {
+    height: 5%;
+    width 90%;
+    background-color: white;
+}
+
+.maincontainer {
     position: relative;
     width: 91%;
     height: 90%;
