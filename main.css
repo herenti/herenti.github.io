@@ -61,6 +61,7 @@ bodytext{
 
 #menubutton1{
     height: 100%;
+    padding: 0 0.2vw;
     margin-right: 0.5vw;
     background-color:#ffffff;
     color: #000000;
@@ -73,6 +74,7 @@ bodytext{
 
 #menubutton2{
     height: 100%;
+    padding: 0 0.2vw;
     margin-right: 0.5vw;
     background-color:#ffffff;
     color: #000000;
