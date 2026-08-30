@@ -61,6 +61,7 @@ bodytext{
 
 #menubutton1{
     height: 100%;
+    margin-left: 1vw;
     background-color:#ffffff;
     color: #000000;
     border-style: solid;
@@ -72,6 +73,7 @@ bodytext{
 
 #menubutton2{
     height: 100%;
+    margin-left: 1vw;
     background-color:#ffffff;
     color: #000000;
     border-style: solid;
