@@ -70,6 +70,17 @@ bodytext{
     box-sizing: border-box;
 }
 
+#menubutton2{
+    height: 100%;
+    background-color:#ffffff;
+    color: #000000;
+    border-style: solid;
+    border-width: medium;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 buttontext {
     font-size: 20px;
 }
