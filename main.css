@@ -1,3 +1,14 @@
 body {
   background-image: url("anpan.jpg");
 }
+
+.menubackground {
+    width: 91%;
+    height: auto;
+    border-radius: 25px;
+    margin: auto;
+    background: rgba(255,255,255, 0.7);
+    max-height: 90%;
+    min-height: 90%;
+    overflow-y: auto;
+}
