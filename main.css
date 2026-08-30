@@ -1,35 +1,30 @@
 body {
- background: rgba(205, 175, 255, 0.8);
+    background: rgba(205, 175, 255, 0.8);
 }
 
-.title{
+.title {
     margin: 20px;
     text-align: center;
-
 }
 
-titletext{
+titletext {
     font-size: 22px;
     color: #000000;
     font-weight: bold;
-
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     align-items: center;
-
 }
 
 .menubackground {
-    position: relative,
+    position: relative;
     width: 91%;
-    height: auto;
+    height: 90%;
     border-radius: 25px;
     margin: auto;
-    background: rgba(255,255,255, 0.7);
-    max-height: 90%;
-    min-height: 90%;
+    background: rgba(255, 255, 255, 0.7);
     overflow-y: auto;
 }
