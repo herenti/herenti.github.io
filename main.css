@@ -56,6 +56,8 @@ bodytext{
 
 .menubuttons{
     float: left;
+    border-style: solid;
+    border-width: medium;
 
 }
 
@@ -65,8 +67,6 @@ bodytext{
     background-color:#ffffff;
     color: #000000;
     display: inline-block;
-    border-style: solid;
-    border-width: medium;
 }
 
 buttontext {
