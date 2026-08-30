@@ -22,7 +22,8 @@ titletext {
 .menubackground {
     height: 8%;
     width: auto;
-    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: white;
 }
 
