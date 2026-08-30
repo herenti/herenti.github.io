@@ -28,3 +28,19 @@ titletext {
     background: rgba(255, 255, 255, 0.7);
     overflow-y: auto;
 }
+
+.bodytextcss{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+    white-space: pre-wrap;
+
+}
+
+bodytext{
+
+    font-size: 20px;
+    color: #000000;
+
+}
