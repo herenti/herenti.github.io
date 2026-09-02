@@ -38,6 +38,15 @@ titletext {
     overflow-y: auto;
 }
 
+.section {
+    width: 100vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: auto;
+    border-radius: 25px;
+    border: medium solid #cdafffcc;
+}
+
 .bodytextcss{
     margin-left: 5%;
     margin-right: 5%;
