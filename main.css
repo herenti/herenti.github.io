@@ -47,6 +47,13 @@ titletext {
     box-sizing: border-box;
 }
 
+sectiontext {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
 .bodytextcss{
     margin-left: 5%;
     margin-right: 5%;
