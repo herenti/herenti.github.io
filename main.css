@@ -47,11 +47,18 @@ titletext {
     box-sizing: border-box;
 }
 
-sectiontext {
+.sectiontextcss {
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
     white-space: pre-wrap;
+}
+
+sectiontext{
+
+    font-size: 20px;
+    color: #000000;
+
 }
 
 .bodytextcss{
