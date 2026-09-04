@@ -49,7 +49,7 @@ titletext {
 }
 
 .sectionheader {
-    padding: 2% 5%;
+    padding: 2% 5% 0;
     text-align: center;
     font-size: 20px;
     color: #000000;
@@ -57,7 +57,8 @@ titletext {
 }
 
 .sectiontext {
-    padding: 2% 5%;
+    padding: 0 5% 2%;
+    margin: 0;
     text-align: left;
     white-space: pre-wrap;
     font-size: 20px;
