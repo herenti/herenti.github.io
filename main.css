@@ -54,6 +54,7 @@ titletext {
     font-size: 20px;
     color: #000000;
     cursor: pointer;
+    position: relative;
 }
 
 .sectiontext {
@@ -107,8 +108,8 @@ bodytext{
 }
 
 .arrow {
-    display: inline-block;
-    text-align: left;
+    position: absolute;
+    left: 5%;
     transition: transform 0.2s ease;
 }
 
