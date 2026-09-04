@@ -108,7 +108,7 @@ bodytext{
 
 .arrow {
     display: inline-block;
-    text-align: right;
+    text-align: left;
     transition: transform 0.2s ease;
 }
 
