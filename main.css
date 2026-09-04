@@ -112,7 +112,7 @@ bodytext{
     position: absolute;
     font-size: 25px;
     left: 5%;
-    margin-right: 3%
+    margin-right: 3%;
     transition: transform 0.2s ease;
 }
 
