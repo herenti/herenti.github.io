@@ -50,9 +50,10 @@ titletext {
 }
 
 .sectionheader {
-    display: flex;
-    padding: 2% 5% 2%;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 2% 5%;
     font-size: 20px;
     color: #000000;
     cursor: pointer;
@@ -74,9 +75,16 @@ titletext {
 
 
 .arrow {
+    grid-column: 1;
+    justify-self: start;
     font-size: 25px;
-    text-align: left;
     transition: transform 0.2s ease;
+}
+
+
+.headertext {
+    grid-column: 2;
+    text-align: center;
 }
 
 .section.open .arrow {
