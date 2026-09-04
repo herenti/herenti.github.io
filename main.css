@@ -50,11 +50,8 @@ titletext {
 }
 
 .sectionheader {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    text-align: center;
     padding: 2% 5% 2%;
+    text-align: center;
     font-size: 20px;
     color: #000000;
     cursor: pointer;
@@ -71,12 +68,19 @@ titletext {
     display: none;
 }
 
-.headertext {
-    grid-column: 2;
-}
-
 .section.open .sectiontext {
     display: block;
+}
+
+
+.arrow {
+    font-size: 25px;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.section.open .arrow {
+    transform: rotate(180deg);
 }
 
 .bodytextcss{
@@ -113,17 +117,6 @@ bodytext{
     align-items: center;
     text-decoration: none;
     font-size: 20px;
-}
-
-.arrow {
-    font-size: 25px;
-    left: 5%;
-    position: absolute;
-    transition: transform 0.2s ease;
-}
-
-.section.open .arrow {
-    transform: rotate(180deg);
 }
 
 buttontext {
