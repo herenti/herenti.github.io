@@ -111,7 +111,7 @@ bodytext{
 .arrow {
     font-size: 25px;
     left: 5%;
-    padding-right: 3%;
+    position: absolute;
     transition: transform 0.2s ease;
 }
 
