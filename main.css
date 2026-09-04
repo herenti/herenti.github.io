@@ -106,6 +106,16 @@ bodytext{
     font-size: 20px;
 }
 
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+}
+
+.section.open .arrow {
+    transform: rotate(180deg);
+}
+
 buttontext {
     font-size: 20px;
 }
