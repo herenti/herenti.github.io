@@ -43,6 +43,7 @@ titletext {
     margin: 2vh 5vw;
     height: auto;
     border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
     border: medium solid #cdafffcc;
     box-sizing: border-box;
     overflow: hidden;
