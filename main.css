@@ -119,6 +119,7 @@ bodytext{
     padding: 0 0.2vw;
     background-color: #ffffff;
     color: #000000;
+    border-radius: 6px;
     border: medium solid #000000;
     box-sizing: border-box;
     display: flex;
